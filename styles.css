@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(24, 111, 33);
+    color: #fff;
+    font-family: 'Unbounded', cursive, sans-serif;
+}
+h1{
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    color: goldenrod;
+}
+#title-el{
+    margin-bottom: 3rem;
+    font-style: italic;
+    font-size: 2rem;
+}
+#cards-el, #sum-el, #card-draw{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+#player-el{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+button{
+    background-color: rgb(238, 177, 23);
+    border-radius: 3px;
+    width: 300px;
+    color: rgb(24, 111, 33);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.button-container{
+    margin-top: 3rem;
+}
